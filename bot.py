@@ -203,7 +203,7 @@ async def on_server_join(server):
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(status=discord.Status.idle, activity= discord.Game(name="c?help"))
+    await bot.change_presence(game = discord.Game(name='c?help'))
     print("Бот работает!")
 
 @bot.command(pass_context=True, name="randomcolor")
