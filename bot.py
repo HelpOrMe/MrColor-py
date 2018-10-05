@@ -1,8 +1,8 @@
-import discord
+import discord, os
 from discord.ext import commands
 from boto.s3.connection import S3Connection
 bot = commands.Bot(command_prefix='$')
-token = S3Connection(os.environ['S3_KEY'], os.environ['S3_SECRET'])
+token = S3Connection(os.environ['token'])
 
 @bot.event
 async def on_ready():
