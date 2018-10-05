@@ -1,2 +1,6 @@
 git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]
-boto
+webcolors==1.8.1
+requests==2.19.1
+colors.py==0.2.2
+colorthief==0.2.1
+colorharmonies==1.0.5
