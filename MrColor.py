@@ -512,6 +512,8 @@ async def help(ctx,*, command:str = None):
         **{0}link** - Returns information about the color on the website
 
         Type {0}help command for more info on a command.
+        Example:
+        {0}help colorinfo
         """
     else:
         title = command
