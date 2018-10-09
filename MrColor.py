@@ -327,7 +327,9 @@ async def color_shades(ctx, countshades:int, shades:int, color_type, *, color):
         most = g
     elif b > r and b > g:
         most = b
-    elif r == g and g == b and r == b:
+    elif r == g or g == b:
+        most = g
+    elif r == b:
         most = r
 
     if shades == 'auto':
@@ -372,9 +374,11 @@ async def color_tints(ctx, counttints:int, tints:int, color_type, *, color):
         low = g
     elif b < r and b < g:
         low = b
-    elif r == g and g == b and r == b:
+    elif r == g or g == b:
+        low = g
+    elif r == b:
         low = r
-
+        
     if tints == 'auto':
         tints = (255 - low) / counttints
         if not int(str(tints).split('.')[1]) == 0:
