@@ -549,4 +549,3 @@ async def help(ctx,*, command:str = None):
             text = "Wrong command"
     await bot.send_message(ctx.message.channel, embed = discord.Embed(title = title, description = text.format(prefix))) 
 bot.run(token)
-
