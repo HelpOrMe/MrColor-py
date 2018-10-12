@@ -503,17 +503,17 @@ async def help(ctx,*, command:str = None):
         title = "All commands"
         text = """
         **{0}help** - Shows this message
-        **{0}randomcolor** - Returns a random color
-        **{0}colorinfo** - Returns color information
-        **{0}imagepalette** - Returns the color palette of the image 
-        **{0}colorshades** - Returns a shades of color
-        **{0}colortints** - Returns a tints of color
-        **{0}compcolor** - Returns complementary colors
-        **{0}triadiccolor** - Returns triadic colors
-        **{0}tetradiccolor** - Returns tetradic colors
-        **{0}analogcolor** - Returns analogous colors
-        **{0}monocolor** - Returns monochromatic colors
-        **{0}link** - Returns information about the color on the website
+        **{0}randomcolor** - Gives a random color
+        **{0}colorinfo** - Gives color information
+        **{0}imagepalette** - Gives the color palette of the image 
+        **{0}colorshades** - Gives a shades of color
+        **{0}colortints** - Gives a tints of color
+        **{0}compcolor** - Gives complementary colors
+        **{0}triadiccolor** - Gives triadic colors
+        **{0}tetradiccolor** - Gives tetradic colors
+        **{0}analogcolor** - Gives analogous colors
+        **{0}monocolor** - Gives monochromatic colors
+        **{0}link** - Gives information about the color on the website
 
         Type {0}help command for more info on a command.
         Example:
